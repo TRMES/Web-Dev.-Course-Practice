@@ -1,0 +1,151 @@
+/* Font */
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+img{
+    object-fit: cover;
+}
+div{
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+h1{
+    font-family: "Audiowide", sans-serif;
+    margin: 30px auto 50px auto;
+    font-size: 2.5rem;
+}
+h2{
+    font-family: "Audiowide", sans-serif;
+}
+p{
+    font-family: "Arbutus Slab", serif;
+}
+li{
+    font-family: "Arbutus Slab", serif;
+    margin-bottom: 10px;
+}
+
+.top-container {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    width: 100vw;
+}
+.top-container > img {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.title-text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    left: 30vw;
+    color: white;
+}
+.title-text h1{
+    margin:0;
+    font-size: 4rem;
+}   
+.title-text h2{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 300px 50px 300px;
+}
+
+
+.profile{
+    margin-top: 300px;
+}
+.profile p{
+    margin: auto 300px auto 300px;
+}
+
+.profile img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.skills{
+    margin-top: 300px;
+}
+.skills h1 {
+    margin-bottom: 150px;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 60px;
+    text-align: left;
+}
+
+.skills-grid > img{
+    height: 400px; 
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin:200px;   
+}
+.contact > h1{
+    margin-bottom: 30px;
+}
+
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #070a19;
+}
+.bottom-container > div{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.bottom-container p{
+    font-family: "Merriweather", serif;
+    color: white;
+}
+
+.btn{
+    background-color: #220ddb;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 330px auto 330px;
+}
